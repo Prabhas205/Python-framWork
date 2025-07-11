@@ -22,4 +22,6 @@ from .import views
 urlpatterns = [
     path('',views.home_view,name='home'),
     path('about/',views.about_view,name='about'),
+    path('contact/',views.contact,name='contact'),
+    path('json_data/',views.json_resp,name='json_data'),
 ]
